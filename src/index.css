@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
 :root{
-  --primary: #efb6b2;
+  --primary:black;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
 }
@@ -10,6 +10,7 @@
 body{
   font-family: "Noto Serif";
   color: var(--secondary);
+  background-color:darkgray;
 }
 .App{
   max-width: 960px;
@@ -20,6 +21,7 @@ body{
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
+  text-align: center;
 }
 .title h2, .title p{
   text-align: center;
